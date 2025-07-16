@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+
+
+
+    <section class="main-div">
+        <div class="search-box">
+            <input id="input" type="text" placeholder="Enter City Name">
+            <button id="search-btn">Click Me!</button>
+        </div>
+
+        <div class="weather">
+            <img src="images/sun.png" id="weather-Img">
+            <h1 id="temp">22°c</h1>
+            <h2 id="city-name">Switzerland</h2>
+            <div class="details">
+                <div class="first-col">
+                    <img src="images/humidity.png" id="humidity">
+                    <div class="Pfirst-col">
+                        <p id="humidityy">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="sec-col">
+                    <img src="images/wind.png" id="rainy">
+                    <div class="Psec-col">
+                        <p id="wind">15km/h</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="weather.js"></script>
+</body>
+
+</html>
